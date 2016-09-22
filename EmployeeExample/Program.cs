@@ -14,6 +14,8 @@ namespace EmployeeExample
             PartTimeEmployee emp2 = new PartTimeEmployee("Dave", new DateTime(75, 1, 22), 15.00, 30.00);
             Employee emp3 = new FullTimeEmployee("Tom", new DateTime(70, 1, 22), 80000);
             emp2.Name = "David";
+            //test
+
 
             Console.WriteLine("First Employee name is " + emp1.Name);
             Console.WriteLine("   This person should be paid " + emp1.pay());
